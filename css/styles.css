@@ -1,0 +1,305 @@
+body {
+    color: 40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+   
+    
+    
+}
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    font-family: "Sacramento", cursive;
+    margin: 50px auto 0px auto;
+    
+}
+h2 {
+    color: #66bfbf;
+    font-size: 2.5rem; 
+    font-family: "Montserrat", sans-serif;
+ font-weight: normal;
+ padding-bottom: 10px;
+}
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+p {
+    line-height: 2;
+}
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px 10px;
+    text-decoration: none;
+    
+
+}
+a:hover {
+    color: #eaf6f6;
+}
+
+.top-container {
+    background-color: #E4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    padding: 100px 0;
+}
+
+  
+.bottom-container {
+background-color: #66bfbf;
+padding: 50px 0 20px;
+    
+}
+.pro {
+text-decoration: underline;
+
+}
+.my-intro {
+    width: 30%;
+    margin: auto;
+   
+}
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copy-right {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.copy-right:hover {
+color: #11999e;
+}
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 150px;
+    bottom: 200px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+   
+    
+}
+.coding-img {
+    width: 25%;
+    float: left;
+    margin: 30px;
+}
+.video-img {
+    width: 25%;
+    width: 25%;
+    float: right;
+    margin: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30c3eb;
+    background-image: -webkit-linear-gradient(top, #30c3eb, #2bc4ab);
+    background-image: -moz-linear-gradient(top, #30c3eb, #2bc4ab);
+    background-image: -ms-linear-gradient(top, #30c3eb, #2bc4ab);
+    background-image: -o-linear-gradient(top, #30c3eb, #2bc4ab);
+    background-image: linear-gradient(to bottom, #30c3eb, #2bc4ab);
+    text-decoration: none;
+  }
+
+/**************** contact **********/
+
+.contactblockleft {
+    display: inline-block;
+    padding-right: 30px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.contactblockleft h2 {
+	font-family: 'brandongrotesque';
+     font-size: 20px;
+    line-height: 25px;
+    display: block;
+    color: #66bfbf;
+	font-weight:bold;
+    padding: 0 0px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+
+ 
+ 
+
+.contactblockleft p {
+     font-size: 14px;
+    line-height: 25px;
+    display: block;
+    color: #777777;
+    font-weight: normal;
+}
+
+.formblock {
+    padding: 10px 0 0 0;
+}
+
+.formblock .form-control {
+    color: #777777 !important;
+    background: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    resize: none;
+    border-bottom: 2px solid #dedede;
+    padding: 12px 12px;
+    height: 45px;
+}
+
+.formblock textarea.form-control {
+    height: auto;
+}
+
+.formblock .btn-send {
+	margin-top:10px;
+	font-size:14px;
+	font-weight:500;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	padding:10px 20px;
+	background: rgb(47, 243, 226);
+	background: -moz-linear-gradient(-45deg, rgb(47, 243, 226) 0%, rgba(65,83,23,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgbargb(47, 243, 226), color-stop(100%, rgba(65,83,23,1)));
+	background: -webkit-linear-gradient(-45deg, rgb(47, 243, 226) 0%, rgba(65,83,23,1) 100%);
+	background: -o-linear-gradient(-45deg, rgb(47, 243, 226) 0%, rgba(65,83,23,1) 100%);
+	background: -ms-linear-gradient(-45deg, )rgb(47, 243, 226) 0%, rgba(65,83,23,1) 100%);
+	background: linear-gradient(135deg, rgb(47, 243, 226) 0%, rgba(65,83,23,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ef620', endColorstr='#415317', GradientType=1 );
+	border-color:#93f806;
+	border-width:0;
+}
+
+.formblock .btn-send:hover {
+     
+}
+
+.formblock .form-control::-webkit-input-placeholder {
+    color: #777777;
+}
+
+.formblock .form-control:-moz-placeholder {
+    color: #777777;
+}
+
+.formblock .form-control::-moz-placeholder {
+    color: #777777;
+}
+
+.formblock .form-control:-ms-input-placeholder {
+    color: #777777;
+}
+
+.contactblockright {
+    display: inline-block;
+    /*border-left:1px solid #e0e0e0;*/
+    padding-left: 30px;
+}
+
+.contactblockright h2 {
+    font-family: '';
+    font-size: 20px;
+    line-height: 25px;
+    display: block;
+    color: #000;
+    padding: 0 0px;
+    text-transform: uppercase;
+    position: relative;
+	font-weight:bold;
+    margin: 0 0 10px 0;
+}
+.contactblockright h4 {
+    font-family: '';
+    font-size: 20px;
+    line-height: 25px;
+    display: block;
+    color: #66bfbf;
+    padding: 0 0px;
+    text-transform: uppercase;
+    position: relative;
+	font-weight:bold;
+    margin: 0 0 10px 0;
+}
+.card-title a {
+	color:inherit;
+	text-decoration:none;
+	}
+.card-text a {
+	color:inherit;
+	text-decoration:none;
+	}	
+	
+.contactblockright h2 i {
+    padding: 0 5px 0 0;
+	width:30px;
+}
+
+/* .contactblockright p {
+    
+    font-size: 15px;
+    line-height: 25px;
+    display: block;
+    color: #777777;
+    font-weight: normal;
+    padding: 0 0 0px 0;
+    text-align: left;
+} */
+
+.contactblockright p a {
+    
+    font-size: 15px;
+    line-height: 25px;
+    display: block;
+    color: #777777;
+    font-weight: normal;
+    display: inline-block;
+}
+
+
+
+.social {
+    display: inline-block;
+    padding: 0px 0 0 0;
+}
