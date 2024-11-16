@@ -91,7 +91,7 @@ color: #11999e;
 .bottom-cloud {
     position: absolute;
     left: 150px;
-    bottom: 200px;
+    bottom: 150px;
 }
 .skill-row {
     width: 50%;
@@ -99,6 +99,12 @@ color: #11999e;
     text-align: left;
    
     
+}
+.mountain{
+    width: 50%;
+    width: 50%;
+   
+    margin: 70px 0px 10px;
 }
 .coding-img {
     width: 25%;
